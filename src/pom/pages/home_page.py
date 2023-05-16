@@ -1,5 +1,6 @@
+# __init__.py
 from selenium.webdriver.common.by import By
-from pom.pages.base_page import BasePage
+from src.pom.pages.base_page import BasePage
 
 
 class HomePage(BasePage):

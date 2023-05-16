@@ -1,4 +1,4 @@
-from pom.tests.basic_test import BasicTest
+from src.pom.tests.basic_test import BasicTest
 
 class TestHome(BasicTest):
 

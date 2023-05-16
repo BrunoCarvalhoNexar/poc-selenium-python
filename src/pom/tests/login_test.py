@@ -1,5 +1,5 @@
-import settings
-from pom.tests.basic_test import BasicTest
+from src.pom import settings
+from src.pom.tests.basic_test import BasicTest
 
 class TestLogin(BasicTest):
 
