@@ -1,9 +1,9 @@
 import pytest
-from selenium import webdriver
 
-import settings
-from pages.home_page import HomePage
-from pages.login_page import LoginPage
+from selenium import webdriver
+from pom.pages.home_page import HomePage
+from pom.pages.login_page import LoginPage
+from pom.tests import settings
 
 
 @pytest.fixture(params=["firefox","chrome"])
